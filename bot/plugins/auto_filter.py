@@ -135,9 +135,9 @@ async def auto_filter(bot, update):
             )
         #https://telegra.ph/file/f3ea3421859204e383b03.jpg
     else:
-        Send_message=await bot.send_video(
+        Send_message=await bot.send_photo(
                 chat_id = update.chat.id,
-                video="https://telegra.ph/file/3e9f7db0c98e6b236c2c7.mp4",
+                photo="https://telegra.ph/file/c1056a3516773b5237756.jpg",
                 caption=f"Couldn't Find This Movie.Please Try Again Or Search On Our <b><a href='https://t.me/UFStudio2'>Channel</a></b>. \n\nഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺",
                 parse_mode="html",
                 reply_to_message_id=update.message_id
